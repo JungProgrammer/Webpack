@@ -1,0 +1,36 @@
+{
+  "name": "nodejs-basics",
+  "version": "0.0.1",
+  "description": "this is webpack course",
+  "main": "index.js",
+  "scripts": {
+    "prod": "node index.js",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JungProgrammer/Webpack.git"
+  },
+  "keywords": [
+    "node",
+    "nodejs",
+    "js",
+    "javascript"
+  ],
+  "author": "Artem Naydanov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JungProgrammer/Webpack/issues"
+  },
+  "homepage": "https://github.com/JungProgrammer/Webpack#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  }
+}
